@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/mazba07/file-json-db/issues"
   },
-  "homepage": "https://github.com/mazba07/file-json-db#readme"
+  "homepage": "https://github.com/mazba07/file-json-db#readme",
+  "dependencies": {
+    "uniqid": "^5.4.0"
+  }
 }
