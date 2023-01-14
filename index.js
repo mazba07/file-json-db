@@ -9,9 +9,9 @@ var connect = require("./ardor/connect");
 
 expFn = {};
 
-expFn.connect = function (path) {
-    var newPath = connect.connect(path);
-    return newPath;
+expFn.connect = function (path, table) {
+    var pathTable = connect.connect(path, table);
+    return pathTable;
 }
 
 
