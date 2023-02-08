@@ -4,7 +4,8 @@
   "description": "Lightweight, Key-Value based JSON file used Database System.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon test.js"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
   },
   "homepage": "https://github.com/mazba07/file-json-db#readme",
   "dependencies": {
+    "file-system-db": "^1.1.0",
     "uniqid": "^5.4.0"
   }
 }

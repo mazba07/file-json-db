@@ -76,10 +76,23 @@ function onlyLettersAndNumbers(str) {
     return Boolean(str.match(/^[A-Za-z0-9]*$/));
 }
 
-function setTable(table) {
+function setTable(path, table) {
+    var arrData = getAllData.gelAllJsonData(path);
+    var arrDataObj = JSON.parse(arrData);
+    var allExistingTable = [];
+    for (let item in arrDataObj) {
+        allExistingTable.push(item);
+    }
+
+    for (let item of table) {
+        // if (!allExistingTable.includes(item)) {
+        //     arrDataObj.item = {};
+        //     fs.writeFileSync(path, JSON.stringify(arrDataObj, null, 4));
+        // }
+    }
+
+    // console.log(allExistingTable);
 }
-
-
 
 
 
