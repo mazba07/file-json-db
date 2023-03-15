@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon test.js"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -16,9 +16,8 @@
     "database",
     "db",
     "quick.db",
-    "quickdb",
-    "enmap",
-    "quickmongo",
+    "quickDB",
+    "quickMongo",
     "discord.js"
   ],
   "author": "Mazba Uddin -- mazba09@gmail.com",
